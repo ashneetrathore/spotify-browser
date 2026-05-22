@@ -34,7 +34,7 @@ Links within components are context-aware - clicking a track on an Artist page n
 > [!NOTE]
 > The overview of the file structure is intentionally kept minimal. Additional directories/files exist in the project.
 ```bash
-SpotifyBrowser/
+spotify-browser/
 │── client/                             # Contains Angular-related files
 │   └── src/
 │       └── app/
@@ -62,7 +62,7 @@ SpotifyBrowser/
 ### :computer: ENVIRONMENT SETUP
 **1. Clone the repository**
 ```bash
-git clone https://github.com/ashneetrathore/SpotifyBrowser.git
+git clone https://github.com/ashneetrathore/spotify-browser.git
 ```
 
 **2. Create two configuration files in `webserver/`**
@@ -85,13 +85,13 @@ git clone https://github.com/ashneetrathore/SpotifyBrowser.git
 
 **3. Install dependencies in `webserver/`**
 ```bash
-cd SpotifyBrowser/webserver
+cd spotify-browser/webserver
 npm install
 ```
 
 **4. Install dependencies in `client/`**
 ```bash
-cd SpotifyBrowser/client
+cd spotify-browser/client
 npm install
 ```
 
