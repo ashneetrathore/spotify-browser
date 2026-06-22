@@ -93,13 +93,15 @@ npm install
 ```
 
 ## :rocket: EXECUTION
-Start the webserver (in `webserver/`)
+**1. Start the webserver**
 ```bash
+cd spotify-browser/webserver
 npm start
 ```
 
-Run the Angular client in a separate terminal (in`client/`)
+**2. Run the Angular client in a separate terminal**
 ```bash
+cd spotify-browser/client
 ng serve --open
 ```
 
