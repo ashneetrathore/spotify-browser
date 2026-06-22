@@ -17,8 +17,8 @@ The backend is implemented in **Node.js** with an **Express** webserver, and the
 Flow of a search request:
 - Angular captures the search input and sends an HTTP request to an Express endpoint
 - Express receives the request, makes a corresponding call to the **Spotify Web API**, and returns JSON data to Angular
-- Angular processes the returned data into structured TypeScript objects
-- Page components render the objects using UI widgets - carousels for artists and albums, tables for tracks
+- Angular processes the returned data into a structured TypeScript object
+- Page components render the Typscript object using UI widgets - carousels for artists and albums, tables for tracks
 
 ## :page_facing_up: PAGES AND FEATURES
 Description of the pages in the application:
