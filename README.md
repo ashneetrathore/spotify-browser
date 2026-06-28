@@ -6,17 +6,17 @@ Developer(s): Ashneet Rathore
 
 Spotify Browser is a full-stack web application for searching and browsing Spotify content by artist, track, and album categories. The app uses the Spotify Web API to retrieve real-time music data. Users can seamlessly navigate between related results, such as exploring an artist's albums or viewing the tracks within an album.
 
-**Tech Stack** | Node.js, Express, Spotify Web API, Angular, TypeScript, HTML, CSS, Bootstrap
+**Tech Stack** | Node.js, Express, Spotify Web API, Angular, HTML, Bootstrap, CSS
 
 ## :film_strip: DEMO
 [Watch the demo on Youtube](https://youtu.be/Iu-WppmJ8cI)
 
 ## :classical_building: ARCHITECTURE
-The backend is implemented in **Node.js** with an **Express** webserver, and the frontend is built with **Angular**, **HTML**, **CSS**, and **Bootstrap**. The backend also manages **OAuth 2.0 authentication**, storing tokens to make authorized API requests without exposing credentials to the frontend.
+The backend is implemented in Node.js with an Express webserver, and the frontend is built with Angular, HTML, and Bootstrap. The backend also manages OAuth 2.0 authentication, storing tokens to make authorized API requests without exposing credentials to the frontend.
 
 Flow of a search request:
 - Angular captures the search input and sends an HTTP request to an Express endpoint
-- Express receives the request, makes a corresponding call to the **Spotify Web API**, and returns JSON data to Angular
+- Express receives the request, makes a corresponding call to the Spotify Web API, and returns JSON data to Angular
 - Angular processes the returned data into a structured TypeScript object
 - Page components render the Typscript object using UI widgets - carousels for artists and albums, tables for tracks
 
